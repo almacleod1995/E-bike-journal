@@ -1,0 +1,19 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.container {
+	@apply max-w-md mx-auto p-4 pt-6 md:p-6 md:pt-12;
+}
+
+.journal-entry {
+	@apply mb-8;
+}
+
+.actions {
+	@apply flex justify-between mt-4;
+}
+
+.add-entry {
+	@apply flex justify-center mt-8;
+}
